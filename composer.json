@@ -1,0 +1,15 @@
+{
+    "name": "grafikart/mon-framework",
+    "autoload": {
+        "psr-4": {
+            "Grafikart\\MonFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Magib",
+            "email": "112185392+mageeeb@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
