@@ -1,8 +1,8 @@
 {
-    "name": "grafikart/mon-framework",
+    "name": "elhad/projet_magib",
     "autoload": {
         "psr-4": {
-            "Grafikart\\MonFramework\\": "src/"
+            "Elhad\\ProjetMagib\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,10 @@
             "email": "112185392+mageeeb@users.noreply.github.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/"
+        }
+    },
     "require": {}
 }

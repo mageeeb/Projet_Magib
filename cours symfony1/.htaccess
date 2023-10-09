@@ -1,0 +1,14 @@
+#on active une réécriture
+RewriteEngine On
+
+# on met une précondition -> si on a pas de fichier existant
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+#on recupere toute l'url
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
+
+
+
+
